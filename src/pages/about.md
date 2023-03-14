@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/MarkdownLayout.astro
-title: Code of Conduct
+title: About
 ---
 
 # About ServerlessDays
@@ -115,7 +115,6 @@ If you city isn’t listed above and you’re interested in organising a Serverl
 
   .jeff-conf {
     margin: auto;
-    height: 665px;
     width: 800px;
   }
 

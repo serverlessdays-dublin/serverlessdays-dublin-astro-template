@@ -3,7 +3,7 @@ import DefaultLayout from '../layouts/DefaultLayout.astro'
 import Hero from '../components/Hero.astro'
 import Speaker from '../components/Speaker.astro'
 import Organiser from '../components/Organiser.astro'
-import Counter from '../components/Counter.astro'
+// import Counter from '../components/Counter.astro'
 import CounterDates from '../components/CounterDates.astro'
 import ContentMedia from '../components/ContentMedia.astro'
 import HeadlineSponsors from '../components/HeadlineSponsors.astro'
@@ -12,6 +12,8 @@ import SilverSponsors from '../components/SilverSponsors.astro'
 import CommunitySponsors from '../components/CommunitySponsors.astro'
 import { Icon } from 'astro-icon'
 ---
+<!-- Google tag (gtag.js) -->
+
 
 <DefaultLayout title="Home">
   <Hero />
@@ -85,12 +87,12 @@ import { Icon } from 'astro-icon'
           Amazon Web Services<br /><br />
             <div style="float: left; padding-right: 8px;">
               <a target="_blank" href="https://www.linkedin.com/in/julianrwood">
-                <img height="20px" width="20px" src="linkedin.svg" />
+                <img class="social-icons" src="linkedin-logo.svg" />
               </a>
             </div>
             <div>
               <a target="_blank" href="https://twitter.com/julian_wood">
-                <img height="20px" width="20px" src="twitter.svg" />
+                <img class="social-icons" src="twitter-logo.svg" />
               </a>
             </div> 
         </Speaker>
@@ -99,8 +101,16 @@ import { Icon } from 'astro-icon'
           <h3>Ben Ellerby</h3>
           Founder / AWS Serverless Hero<br />
           aleios<br /><br />
-          <div style="float: left; padding-right: 8px;"><a target="_blank" href="https://www.linkedin.com/in/benjaminellerby/"><img height="20px" width="20px" src="linkedin.svg" /></a></div>
-          <div><a target="_blank" href="https://twitter.com/EllerbyBen"><img height="20px" width="20px" src="twitter.svg" /></a></div> 
+          <div style="float: left; padding-right: 8px;">
+            <a target="_blank" href="https://www.linkedin.com/in/benjaminellerby/">
+              <img class="social-icons" src="linkedin-logo.svg" />
+            </a>
+          </div>
+          <div>
+            <a target="_blank" href="https://twitter.com/EllerbyBen">
+              <img class="social-icons" src="twitter-logo.svg" />
+            </a>
+          </div> 
         </Speaker>
         <Speaker> 
           <img class="speaker-image-border" height="100px" width="100px" src="jeremy-daly.jpeg" /><br />
@@ -109,12 +119,12 @@ import { Icon } from 'astro-icon'
           Ampt<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/jeremydaly/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div>
           <div>
             <a target="_blank" href="https://twitter.com/jeremy_daly">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>
         </Speaker>
@@ -125,12 +135,12 @@ import { Icon } from 'astro-icon'
           The Burning Monk<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/theburningmonk/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div> 
           <div>
             <a target="_blank" href="https://twitter.com/theburningmonk">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>  
         </Speaker>
@@ -141,12 +151,12 @@ import { Icon } from 'astro-icon'
           fourTheorem<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/lucianomammino/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div>
           <div>
             <a target="_blank" href="https://twitter.com/loige">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>
         </Speaker>
@@ -157,7 +167,7 @@ import { Icon } from 'astro-icon'
           Accenture | Cloud First<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/simonjgr/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div> 
         </Speaker>
@@ -168,12 +178,12 @@ import { Icon } from 'astro-icon'
           globaldatanet / Serverless Summit<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/marcschroeter/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div> 
           <div>
             <a target="_blank" href="https://twitter.com/marc_schroeter/">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>
         </Speaker>
@@ -184,12 +194,12 @@ import { Icon } from 'astro-icon'
           The LEGO Group<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/marcschroeter/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div> 
           <div>
             <a target="_blank" href="https://twitter.com/marc_schroeter/">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>
         </Speaker>
@@ -200,12 +210,12 @@ import { Icon } from 'astro-icon'
           Amazon Web Services<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/singledigit/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div> 
           <div>
             <a target="_blank" href="https://twitter.com/edjgeek">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>
         </Speaker>
@@ -251,9 +261,9 @@ import { Icon } from 'astro-icon'
     This is the Organisers section and is edited in the Organiser.astro file under components
 
   -->
-  <section class="my-32">
+  <section class="my-24">
     <div class="container">
-      <h2 id="organisers" class="mb-16 text-5xl">Organisers</h2>
+      <h2 id="organisers" class="mb-24 text-5xl">Organisers</h2>
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
         <Organiser>
           <img class="organiser-image-border" height="100px" width="100px" src="simon-green.jpeg" /><br />
@@ -262,7 +272,7 @@ import { Icon } from 'astro-icon'
           Accenture | Cloud First<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/simonjgr/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div>
         </Organiser>
@@ -273,12 +283,12 @@ import { Icon } from 'astro-icon'
           fourTheorem<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/peterelger/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div>
           <div>
             <a target="_blank" href="https://twitter.com/pelger">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>
         </Organiser>
@@ -289,11 +299,11 @@ import { Icon } from 'astro-icon'
           Examfly<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/eugen-serbanescu-57a78a51/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div> 
           <div><a target="_blank" href="https://twitter.com/88_eugen">
-            <img height="20px" width="20px" src="twitter.svg" />
+            <img class="social-icons" src="twitter-logo.svg" />
           </a>
         </div>
         </Organiser>
@@ -304,12 +314,12 @@ import { Icon } from 'astro-icon'
           fourTheorem<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/lucianomammino/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div>
           <div>
             <a target="_blank" href="https://twitter.com/loige">
-              <img height="20px" width="20px" src="twitter.svg" />
+              <img class="social-icons" src="twitter-logo.svg" />
             </a>
           </div>
         </Organiser>
@@ -320,7 +330,7 @@ import { Icon } from 'astro-icon'
           Fastly<br /><br />
           <div style="float: left; padding-right: 8px;">
             <a target="_blank" href="https://www.linkedin.com/in/megan-e-davies/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div>
         </Organiser>
@@ -331,7 +341,7 @@ import { Icon } from 'astro-icon'
           IBM<br /><br />
           <div class="organiser-social">
             <a target="_blank" href="https://www.linkedin.com/in/antonwhalley/">
-              <img height="20px" width="20px" src="linkedin.svg" />
+              <img class="social-icons" src="linkedin-logo.svg" />
             </a>
           </div>
         </Organiser>
@@ -343,7 +353,7 @@ import { Icon } from 'astro-icon'
     This is the Counters section and is edited in the Counters.astro file under components
 
   -->
-  <section class="mt-24 mb-24">
+  <!-- <section class="mt-24 mb-24">
     <div class="container">
       <h2 class="mb-16 text-5xl">Counters</h2>
       <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
@@ -354,7 +364,7 @@ import { Icon } from 'astro-icon'
       </div>
     </div>
   </section>
-</DefaultLayout>
+</DefaultLayout> -->
   <!--  
 
     This is the style sheet for this page
@@ -384,48 +394,10 @@ import { Icon } from 'astro-icon'
     padding-right: 8px;
   }
 
-/*   .social-linkedin-svg {
-
+  .social-icons {
+    height: 25px;
+    width: 25px;
   }
-
-  .x-svg:hover {
-	  fill: red;
-  }
-
-  .social {
-    float: left;
-    width: 20px;
-    height: 20px;
-    background-size: cover;
-  }
-
-  .social-linkedin {
-    background-image: url(linkedin.svg);
-  }
-
-  .social-linkedin:hover,
-  .social-linkedin:focus {
-    background-image: url(linkedin-hover.svg);
-  }
-
-  .social-linkedin-svg-container {
-    float: left;
-    padding-right: 8px;
-  }
-
-  .social-linkedin-svg {
-    float: left;
-    height: 20px;
-    width: 20px;
-    padding-right: 8px;
-    fill: #009a49;
-  }
-
-  .social-linkedin-svg:hover {
-    float: left;
-    padding-right: 8px;
-    fill: #ffffff;
-  } */
 
   .call-to-action a:not(button),
   .call-to-action a:not(button):visited {
